@@ -1,0 +1,147 @@
+body{
+  font-family: 'Philosopher', sans-serif;
+}
+h2{
+  font-family: 'Philosopher', sans-serif;
+}
+h3{
+  font-family: 'Philosopher', sans-serif;
+}
+h4{
+  font-family: 'Philosopher', sans-serif;
+}
+  .navbar{
+  background-color: #000;
+}
+.navbar .nav-item{
+  padding-left: 1em !important;
+}
+.navbar .nav-item .nav-link{
+  text-transform: uppercase;
+}
+.carousel-item{
+  height: 450px;
+}
+.carousel-img-1{
+  background-image: url('../img/image1.jpg');
+  background-size: cover;
+}
+.carousel-img-2{
+  background-image: url('../img/image2.jpg');
+  background-size: cover;
+}
+.carousel-img-3{
+  background-image: url('../img/image3.jpg');
+  background-size: cover;
+}
+#homeicon .fas{
+  font-size: 30px;
+}
+#getstarted{
+  background-image: url('../img/bg1.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  position: relative;
+  background-position: center;
+
+}
+#getstarted .dark-overlay{
+  background-color: rgba(0,0,0,.7);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+
+}
+#home-video{
+  background-image: url('../img/people.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  position: relative;
+  background-position: center;
+
+}
+#home-video .dark-overlay{
+  background-color: rgba(0,0,0,.7);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+
+}
+#home-video .dark-overlay .fab{
+  font-size: 50px;
+  color: red;
+}
+#gallery img{
+  min-height: 250px;
+}
+#copyright{
+  background: #000;
+}
+#page-header{
+  background-image: url('../img/image3.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
+#services-page-header{
+  background-image: url('../img/image2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
+#blog-page-header{
+  background-image: url('../img/image3.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
+#contact-page-header{
+  background-image: url('../img/image3.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
+#about-info img{
+  border:5px solid gray
+}
+#icon-boxes .fa{
+  font-size: 50px;
+}
+#icon-boxes .fab{
+  font-size: 50px;
+}
+.slider .blockquote footer{
+  color: red;
+}
+#testimonial .slick-prev::before,#testimonial .slick-next::before{
+  color: #000;
+}
+
+@media(max-width:767px){
+  .navbar .nav-item{
+    padding-left: 0em !important;
+  }
+  #getstarted{
+    min-height: 300px;
+  }
+}
+@media(max-width:480px) {
+.carousel h2{
+  font-size: 2.5rem;
+}
+#getstarted{
+  min-height: 350px;
+}
+}
